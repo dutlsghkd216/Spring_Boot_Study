@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @Slf4j
 public class ComputerTests {
     @Autowired @Qualifier("desktop")
+<<<<<<< HEAD
     Computer desktop;
 
     @Autowired @Qualifier("laptop")
@@ -17,11 +18,17 @@ public class ComputerTests {
 
     @Autowired
     Computer computer;
+=======
+    Desktop desktop;
+>>>>>>> origin/master
 
     @Test
     public void computerTest(){
         log.info(desktop.toString());
+<<<<<<< HEAD
         log.info(laptop.toString());
         log.info(computer.toString());
+=======
+>>>>>>> origin/master
     }
 }
